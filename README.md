@@ -55,7 +55,7 @@ while(true) {
 
 ## Full API Docs
 
-The full public API is documented in JSDoc comments in `/src/game-space`
+The full public API is documented in JSDoc comments in `/src/game-space.js`
 
 # Developing
 

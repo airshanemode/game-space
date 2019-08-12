@@ -20,6 +20,8 @@ Often, you'll want to implement a camera system in a game that only renders obje
 const { GameSpace, GameEntity } = require("game-space");
 
 // create a basic enemy class with hp and attack
+// Note that GameSpace provides the GameEntity base class to get you started,
+// but you can easily write your own.
 class Enemy extends GameEntity {
   constructor(hp, attack) {
     this.hp = hp;
@@ -50,3 +52,7 @@ while(true) {
   visibleEntities.forEach(entity => drawEntity(entity)); // you obviously need to implement drawEntity yourself
 }
 ```
+
+## Full API Docs
+
+The full public API is documented in JSDoc comments in `/src/game-space`
